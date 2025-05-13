@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Renovation Services</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background: #fdfdfd;
+      color: #333;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') no-repeat center center/cover;
+      color: #fff;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+    nav {
+      background: #222;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffc107;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .service-box {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .service-box:hover {
+      transform: translateY(-5px);
+    }
+    .service-box img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    form {
+      margin-top: 2rem;
+      max-width: 500px;
+    }
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      padding: 0.7rem 1.5rem;
+      background-color: #222;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    footer {
+      background: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+    footer a {
+      color: #ffc107;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    #testimonials .service-box {
+      min-height: 200px;
+    }
+    /* WhatsApp & Call Floating Buttons */
+    .whatsapp-float, .call-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 80px;
+      z-index: 100;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 30px;
+      color: #fff;
+      line-height: 60px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    }
+    .whatsapp-float {
+      background: #25D366;
+      left: 20px;
+    }
+    .call-float {
+      background: #007BFF;
+      right: 20px;
+    }
+    .social-icons {
+      margin-top: 1rem;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: #ccc;
+      font-size: 20px;
+      transition: color 0.3s;
+    }
+    .social-icons a:hover {
+      color: #ffc107;
+    }
+  </style>
+</head>
+<body>
+
+    <header>
+        <img src="c:\Users\shaukin\Pictures\RK.png"  style="width: 120px; margin-bottom: 1rem;">
+        <h1>HOME RENOVATION EXPERTS</h1>
+        <p>Flooring, Marble, Granite, Kitchens, Bathrooms, and More</p>
+      </header>
+      
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome!</h2>
+    <p>We offer professional home renovation services including kitchen remodeling, bathroom design, flooring, marble, and granite installation. Transform your space with elegance and style!</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC_BlQRM7Kqmd4_TgcusWKOuhTNoMb0Xkc1XvOXWMMH_lm7stJiQ&s=10&ec=72940544" alt="Flooring">
+        <h3>Flooring</h3>
+        <p>Wood, vinyl, tile, and more – quality flooring for every room.</p>
+      </div>
+      <div class="service-box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdLxgURfFkLp7mRU0bJwXt6xX75HRTvrgaqzQvCinF6B_2EOF2ZQ&s=10&ec=72940544" alt="Marble">
+        <h3>Marble Work</h3>
+        <p>Elegant marble installation, polishing, and finishes.</p>
+      </div>
+      <div class="service-box">
+        <img src="https://irp-cdn.multiscreensite.com/36264433/dms3rep/multi/desktop/stone_countertop-1920x1278.jpg" alt="Granite">
+        <h3>Granite Installation</h3>
+        <p>Durable and stylish granite for kitchen countertops and more.</p>
+      </div>
+      <div class="service-box">
+        <img src="https://i.ytimg.com/vi/ZzpMoXpEbX4/maxresdefault.jpg" alt="Kitchen">
+        <h3>Kitchen Renovation</h3>
+        <p>Modern and functional kitchen transformations.</p>
+      </div>
+      <div class="service-box">
+        <img src="https://5.imimg.com/data5/AQ/RA/MY-34959989/granite-flooring-1000x1000.jpg" alt="Bathroom">
+        <h3>Bathroom Remodeling</h3>
+        <p>Stylish and luxurious bathroom upgrades.</p>
+      </div>
+      <div class="service-box">
+        <img src="https://i.ytimg.com/vi/394EonAsC5g/maxresdefault.jpg" alt="Hall">
+        <h3>Hall & Room Design</h3>
+        <p>Interior planning for elegant and comfortable living spaces.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Project Gallery</h2>
+    <div class="gallery">
+      <img src="https://i.ytimg.com/vi/8kZhJZupCnA/maxresdefault.jpg" alt="Renovation Project 1">
+      <img src="https://i.ytimg.com/vi/NGLkCJZ3rso/maxresdefault.jpg" alt="Renovation Project 2">
+      <img src="https://i.ytimg.com/vi/JuykSvtl57s/maxresdefault.jpg" alt="Renovation Project 3">
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a team of passionate renovation experts dedicated to transforming homes with style and precision. Owned by <strong>Rahish Khan</strong>, our company focuses on delivering quality work and customer satisfaction.</p>
+  </section>
+
+  <section id="testimonials">
+    <h2 style="text-align:center; margin-bottom: 2rem;">Testimonials</h2>
+    <div class="services">
+      <div class="service-box">
+        <p>"Fantastic service! My kitchen looks brand new. Highly recommend!"</p>
+        <strong>- Aman Khan</strong>
+      </div>
+      <div class="service-box">
+        <p>"Professional team and excellent marble finishing. Worth every penny."</p>
+        <strong>- Rajesh Kumar</strong>
+      </div>
+      <div class="service-box">
+        <p>"We loved the flooring work done. Timely and neat execution!"</p>
+        <strong>- Anjali Mehta</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+    <p>Phone: <a href="tel:+911234567890">+91-1234567890</a></p>
+    <p>Location: New Delhi, India</p>
+
+    <form action="#" method="post">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <a href="https://wa.me/911234567890" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="tel:+911234567890" class="call-float" title="Call Now">
+    <i class="fas fa-phone"></i>
+  </a>
+
+  <footer>
+    <p>&copy; 2025 Home Renovation Services | Designed with ❤️ by Aman Khan</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="mailto:example@email.com"><i class="fas fa-envelope"></i></a>
+    </div>
+    <p><a href="#home">Back to Top</a></p>
+  </footer>
+
+</body>
+</html>
